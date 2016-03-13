@@ -1,9 +1,10 @@
 class Room{
 	
 public:
-	char name[30];
-	char description[200];
-
+	Room(const char* room_name, const char* room_description);	
+	const char* name;
+	const char* description;
+	
 
 
 };
