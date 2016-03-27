@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7356A571-6363-45E8-9798-6C2FABEE0BA9}</ProjectGuid>
-    <RootNamespace>Zork</RootNamespace>
+    <ProjectGuid>{67D74177-3CAB-4CE2-BA67-2A426DA2C118}</ProjectGuid>
+    <RootNamespace>ZorkAssignment1</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,18 +64,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Exits.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Players.cpp" />
-    <ClCompile Include="Rooms.cpp" />
-    <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Exits.h" />
-    <ClInclude Include="Globals.h" />
-    <ClInclude Include="Players.h" />
-    <ClInclude Include="Rooms.h" />
-    <ClInclude Include="World.h" />
+    <ClInclude Include="Room.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
