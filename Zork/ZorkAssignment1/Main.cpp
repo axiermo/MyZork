@@ -1,17 +1,14 @@
 #include "Room.h"
+#include "Exits.h"
 #include <stdio.h>
 int main(void){
-	{
-		room test("test", "test");
-	}
-	int needabreak;
-
-
-
-
-
-	int takeakitkat;
 	
-	getchar();
+	
+	{
+		room room1("nametest", "nametest");
+		exits exit1("exit nametest", "exit descriptiontest");
+	}
+	int i = 1;
+	i++;
 	return 0;
 }
